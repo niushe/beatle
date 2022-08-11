@@ -1,0 +1,13 @@
+1-9369192 (HEAD -> master, css) subida de index e imgs
+
+2-a043402 (HEAD -> css) subida de css e animaciones
+9369192 (master) subida de index e imgs
+
+3-399f065 (HEAD -> master) scss y sass
+a043402 (origin/master, css) subida de css e animaciones
+9369192 subida de index e imgs
+
+4-0ef7778 (HEAD -> master) actualizacion sass
+399f065 (origin/master) scss y sass
+a043402 (css) subida de css e animaciones
+9369192 subida de index e imgs

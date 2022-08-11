@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.text1, .text2 {
+  color: #C3C2C2; }
+
+.text2 {
+  color: #A19C9C; }
+
+.text3 {
+  color: #706868; }
+
+.text1, .text2 {
+  text-align: center;
+  text-shadow: 10px 10px 10px black, 20px	20px 10px black;
+  font-family: 'bootleregular'; }
+
+.text1, .text2 {
+  font-size: 500%; }
+
+.text2 {
+  font-size: 150%; }
+
+.text3 {
+  font-family: "bootleregular";
+  text-shadow: 10px 10px 10px black, 20px	20px 10px black;
+  text-align: center;
+  font-size: 150%; }
+
+@font-face {
+  font-family: 'bootleregular';
+  src: url("../font/bootle-4b9l-webfont.woff2") format("woff2"), url("../font/bootle-4b9l-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.main_nav ul li a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  font-family: 'Anton';
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; }
+
+.main_nav ul li a:hover {
+  color: white;
+  font-weight: 500;
+  background-size: 100% 2px; }
+
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.6) !important; }
+
+html {
+  font-size: 100%; }
+
+body {
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-size: 50px 50px;
+  background-image: repeating-linear-gradient(45deg, #414141 0, brown 1px, #2a2a2a 0, black 50%);
+  background-attachment: fixed;
+  padding: 1rem; }
+
+#botonera img {
+  width: 150px; }
+
+#header {
+  width: 50%;
+  margin-left: 25%;
+  border: inset 3px gray; }
+
+.section__map iframe {
+  border: 6px inset #db2151;
+  margin-top: 2rem; }
+
+.section__map h2 {
+  margin-top: 5rem; }
+
+.section__yt iframe {
+  margin-top: 2rem; }
+
+.section__yt h2 {
+  margin-top: 5rem; }

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@100;200;300;400;500&display=swap');
+
+@font-face {
+    font-family: 'bootleregular';
+    src: url('../font/bootle-4b9l-webfont.woff2') format('woff2'),
+         url('../font/bootle-4b9l-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: 'Barlow'; 
+}
+
+html{
+	font-size: 100%;
+}
+
+body{
+	background-color: #e5e5f7;
+opacity: 1;
+background-size: 50px 50px;
+background-image: repeating-linear-gradient(45deg, #414141 0, brown 1px, #2a2a2a 0, black 50%);
+	background-attachment: fixed;
+	padding: 1rem;
+}
+
+h1{
+	font-size: 3rem;
+	font-family: 'bootleregular';
+	color: white;
+	text-align: center;
+	text-shadow: 1.5px 1.5px 1.5px black,
+				1.5px 1.5px 1.5px black;
+}
+
+h2{
+	font-size: 2rem;
+	font-family: 'bootleregular';
+	color: white;
+	text-align: center;
+	text-shadow: 1.5px 1.5px 1.5px black,
+				1.5px 1.5px 1.5px black;
+}
+
+h3{
+	font-size: 1rem;
+	font-family: 'Anton';
+	color: #D95959;
+	text-align: center;
+	text-shadow: 1.5px 1.5px 1.5px black,
+				1.5px 1.5px 1.5px black;
+}
+
+			.main_nav ul li a{
+					font-size: 1.5em;
+					color: white;
+					text-decoration: none;
+					font-family: 'Anton';
+					background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
+				}
+
+			.main_nav ul li a:hover{
+					color: white;
+					font-weight: 500;
+					background-size: 100% 2px;
+				}	
+
+.navbar-toggler{
+	background-color: rgba(255, 255, 255, .6) !important;
+}
+
+.beatle-pic{
+	margin-bottom: 1rem;
+}				
+
+#botonera img{
+	width: 150px;
+
+}	
+
+#textos{
+	color: white;
+	width: 70%;
+	border: solid 3px black;
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(23,18,18,1) 71%, rgba(48,0,0,1) 100%);
+}

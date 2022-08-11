@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@100;200;300;400;500&display=swap');
+
+*{
+	font-family: 'Barlow'; 
+}
+
+html{
+	font-size: 100%;
+}
+
+h2{
+	font-size: 1.3em;
+}
+
+body{
+	background-color: #e5e5f7;
+opacity: 1;
+background-size: 50px 50px;
+background-image: repeating-linear-gradient(45deg, #414141 0, brown 1px, #2a2a2a 0, black 50%);
+	background-attachment: fixed;
+	padding: 1rem;
+}
+
+			.main_nav ul li a{
+					font-size: 1.5em;
+					color: white;
+					text-decoration: none;
+					font-family: 'Anton';
+					background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
+				}
+
+			.main_nav ul li a:hover{
+					color: white;
+					font-weight: 500;
+					background-size: 100% 2px;
+				}
+
+.navbar-toggler{
+	background-color: rgba(255, 255, 255, .6) !important;
+}					
+
+#botonera img{
+	width: 150px;
+}	
+
+.section__john{
+	color: #c4d344;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-shadow: 3px 3px 3px gray, 
+				3px 3px 3px black;
+}
+
+.section__paul{
+	color: #07b1d4;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-shadow: 3px 3px 3px gray, 
+				1px 1px 1px black;
+}
+
+.section__george{
+	color: #e43228;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-shadow: 3px 3px 3px gray, 
+				1px 1px 1px black;
+}
+
+.section__ringo{
+	color: #e21b90;
+	text-align: center;;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-shadow: 3px 3px 3px gray, 
+				1px 1px 1px black;
+}
+
+#sgt-art img{
+	width: 50%;
+}
+
+#sgt-art p{
+	color: white;
+}
+
+@media (min-width: 200px){
+	#sgt-art img{
+	width: 80%;
+}
+
+@media (min-width: 1100px){
+	#sgt-art img{
+	width: 50%;
+}

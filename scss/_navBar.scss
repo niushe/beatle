@@ -1,0 +1,21 @@
+.main_nav ul li a{
+					font-size: 1.5em;
+					color: white;
+					text-decoration: none;
+					font-family: 'Anton';
+					background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
+				}
+
+			.main_nav ul li a:hover{
+					color: white;
+					font-weight: 500;
+					background-size: 100% 2px;
+				}
+
+.navbar-toggler{
+	background-color: rgba(255, 255, 255, .6) !important;
+}					

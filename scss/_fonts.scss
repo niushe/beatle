@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+    font-family: 'bootleregular';
+    src: url('../font/bootle-4b9l-webfont.woff2') format('woff2'),
+         url('../font/bootle-4b9l-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$mainFont: 'Anton';
+$secondaryFont: 'bootleregular';
+
+//text sizing
+$textMd: 500%; 
+$textSm: 150%;

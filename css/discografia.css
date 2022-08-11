@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+	font-family: 'Inconsolata'; 
+}
+
+html{
+	font-size: 100%;
+}
+
+h1{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: yellow;
+}	
+
+body{
+	background-color: #e5e5f7;
+opacity: 1;
+background-size: 50px 50px;
+background-image: repeating-linear-gradient(45deg, #414141 0, brown 1px, #2a2a2a 0, black 50%);
+	background-attachment: fixed;
+	padding: 1rem;
+}
+
+			.main_nav ul li a{
+					font-size: 1.5em;
+					color: white;
+					text-decoration: none;
+					font-family: 'Anton';
+					background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
+				}
+
+			.main_nav ul li a:hover{
+					color: white;
+					font-weight: 500;
+					background-size: 100% 2px;
+				}	
+
+.navbar-toggler{
+	background-color: rgba(255, 255, 255, .6) !important;
+}
+
+#botonera img{
+	width: 150px;
+}	
+
+.table th{
+	color: orangered;
+}
+
+.table td{
+	color: orange;
+}
+
+.table{
+	background-color: rgba(0, 0, 0, .7);
+}
